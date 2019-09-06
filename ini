@@ -1,0 +1,8 @@
+#! /bin/bash
+echo    ">Bash : Welcom Back To Bash, " $1 "What Are You Doing Today ?"         
+read  ngoding;
+if [$ngoding == "ngoding"]
+then
+code
+kill -9 $PPID
+fi

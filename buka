@@ -1,0 +1,15 @@
+if which xdg-open > /dev/null
+then
+  xdg-open https://github.com
+elif which gnome-open > /dev/null
+then
+  gnome-open https://github.com
+fi
+
+echo " _____ _ _   _           _     
+ / ____(_) | | |         | |    
+| |  __ _| |_| |__  _   _| |__  
+| | |_ | | __| '_ \| | | | '_ \ 
+| |__| | | |_| | | | |_| | |_) |
+ \_____|_|\__|_| |_|\__,_|_.__/
+================================
